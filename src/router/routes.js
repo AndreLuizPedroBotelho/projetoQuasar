@@ -2,14 +2,14 @@
 const routes = [
   {
     path: '/',
-    component: () => import('layouts/MyLayout'),
+    component: () => import('layouts/base'),
     children: [
       { path: '', component: () => import('pages/Index') }
     ]
   },
   {
     path: '/welcome',
-    component: () => import('layouts/MyLayout'),
+    component: () => import('layouts/base'),
     children: [
       { path: '', component: () => import('pages/welcome') }
     ]

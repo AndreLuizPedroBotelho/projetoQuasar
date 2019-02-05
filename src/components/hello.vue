@@ -7,7 +7,7 @@ export default {
   // name: 'ComponentName',
   data () {
     return {
-      name:'André Luiz Pedro Botelho'
+      name:'André'
     }
   }
 }
