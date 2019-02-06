@@ -12,6 +12,11 @@ export default {
   // name: 'PageName',
   components:{
     'hello': Hello
+  },
+  mounted(){
+      console.log(this.$axios.get('http://www.schoolofnet.com'));
+      console.log(this.dede)
+  
   }
 
 }
